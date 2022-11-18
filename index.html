@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Scrolling Image</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+<!--       Replace the src in this image for the navbar's logo -->
+      <li><img style="border-radius:50%;margin-right:20px" src="example.png" width=44 height=44></li>
+      <li><a class="active" href="/">Home</a></li>
+      <li class="right"><a href="subscribe">Subscribe</a></li>
+      <li class="right"><a href="social">Socials</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <marquee direction="up" behavior="scroll" scrollamount=10>
+<!--       This image will scroll. -->
+    <img src=ExampleScroll.png class="bgimg">
+    </marquee>
+    <div class="content"><h1>Header</h1>
+    <a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</a></div>
+  </div>
+  <div style="background-color:gray;padding:5px;border:5px solid black;color:white;border-radius:3px;" id="replit-badge">made with &lt;3 by <a href="https://example.com/">your name</a></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
